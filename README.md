@@ -25,7 +25,6 @@ Este projeto é uma aplicação web para uma pet shop fictícia chamada **AmigoP
 1. Clone o repositório:
     ```sh
     git clone <url-do-repositorio>
-    cd WEB-II-Laravel
     ```
 
 2. Instale as dependências PHP:
