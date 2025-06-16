@@ -19,33 +19,32 @@ class AppController extends Controller
     public function home(){
         $cards = [
             [
-                'imagem' => 'https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png',
-                'nome' => 'Nuvem',
-                'texto' => 'Plataforma de infraestrutura totalmente gerenciada para implantação e hospedagem PHP.',
-                'preco' => 'A partir de US$ 0,00/mês'
+                'imagem' => 'https://blog-static.petlove.com.br/wp-content/uploads/2020/01/Racao_Affinity_PetCare_GranPlus_Choice_Frango_e_Carne.jpg',
+                'nome' => 'Ração Premium Cães',
+                'texto' => 'Alimento completo e balanceado para cães adultos de todas as raças. Sabor irresistível e nutrição de qualidade.',
+                'preco' => 'R$ 89,90'
             ],
             [
-                'imagem' => 'https://static-00.iconduck.com/assets.00/laravel-icon-249x256-4gdjrenn.png',
-                'nome' => 'Forja',
-                'texto' => 'Gerenciamento de servidores para aplicativos no DigitalOcean, Vultr, Amazon, Hetzner e muito mais',
-                'preco' => 'A partir de US$ 12,00/mês'
+                'imagem' => 'https://down-br.img.susercontent.com/file/br-11134207-7r98o-m097zxv75js90a',
+                'nome' => 'Arranhador para Gatos',
+                'texto' => 'Arranhador resistente com brinquedos pendurados para diversão e bem-estar do seu gato.',
+                'preco' => 'R$ 59,90'
             ],
             [
-                'imagem' => 'https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png',
-                'nome' => 'Vigília Noturna',
-                'texto' => 'Monitoramento e insights incomparáveis sobre o desempenho do seu aplicativo Laravel.',
-                'preco' => 'Preços em breve'
+                'imagem' => 'https://m.media-amazon.com/images/I/71OE4M66ymL._UF1000,1000_QL80_.jpg',
+                'nome' => 'Coleira Antipulgas',
+                'texto' => 'Proteção eficaz contra pulgas e carrapatos por até 8 meses. Ajustável e confortável.',
+                'preco' => 'R$ 39,90'
             ],
             [
-                'imagem' => 'https://static-00.iconduck.com/assets.00/laravel-icon-249x256-4gdjrenn.png',
-                'nome' => 'Nova',
-                'texto' => 'A maneira mais simples e rápida de criar painéis de administração prontos para produção.',
-                'preco' => 'A partir de $ 99,00'
+                'imagem' => 'https://down-br.img.susercontent.com/file/sg-11134201-7rd5v-lv93uz2o2qgl3a',
+                'nome' => 'Brinquedo Mordedor',
+                'texto' => 'Brinquedo de borracha atóxica para cães, ideal para saúde bucal e diversão.',
+                'preco' => 'R$ 24,90'
             ]
         ];
 
         return view('home', ['crd'=>$cards]);
-         
     }
 
     public function produtos(){

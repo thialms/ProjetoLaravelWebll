@@ -1,22 +1,23 @@
-# Laravel App
+# AmigoPet Store - Laravel
 
-Este projeto é uma aplicação web desenvolvida com o framework **Laravel**. Ele inclui funcionalidades de cadastro, edição e exclusão de produtos e usuários, além de um sistema de contatos e autenticação simples.
+Este projeto é uma aplicação web para uma pet shop fictícia chamada **AmigoPet Store**, desenvolvida com o framework **Laravel** e estilizada com **TailwindCSS**. O sistema permite o gerenciamento de produtos, usuários, contatos e autenticação, com uma interface moderna, responsiva e voltada para o universo pet.
 
 ## Funcionalidades
 
-- Cadastro, edição e exclusão de produtos com upload de imagem
-- Cadastro, edição e exclusão de usuários
-- Autenticação de usuários (login/logout)
-- Dashboard restrito para usuários autenticados
-- Formulário de contato e listagem de mensagens recebidas
-- Listagem de produtos e usuários
-- Interface responsiva utilizando Bootstrap
+- **Catálogo de Produtos:** Visualização de produtos para pets, com imagens, preços e descrição.
+- **Cadastro, edição e exclusão de produtos:** Gerenciamento completo de produtos, incluindo upload de imagens.
+- **Cadastro, edição e exclusão de usuários:** Gerenciamento de clientes e administradores.
+- **Autenticação de usuários:** Login, logout e área restrita (dashboard).
+- **Dashboard administrativo:** Acesso rápido ao cadastro e listagem de produtos, usuários e mensagens de contato.
+- **Formulário de contato:** Envio de mensagens para a loja, com listagem e gerenciamento das mensagens recebidas.
+- **Botões diferenciais:** Responder (via e-mail) e excluir mensagens de contato diretamente pela interface.
+- **Interface moderna e responsiva:** Utilizando TailwindCSS, com foco em usabilidade e visual agradável para o segmento pet shop.
 
 ## Pré-requisitos
 
 - PHP >= 8.2
 - Composer
-- Banco de dados SQLite (padrão), MySQL ou outro compatível
+- Banco de dados SQLite, MySQL ou compatível
 - Node.js e npm (para assets front-end)
 
 ## Instalação
@@ -24,7 +25,7 @@ Este projeto é uma aplicação web desenvolvida com o framework **Laravel**. El
 1. Clone o repositório:
     ```sh
     git clone <url-do-repositorio>
-    cd laravel-app
+    cd WEB-II-Laravel
     ```
 
 2. Instale as dependências PHP:
@@ -37,7 +38,7 @@ Este projeto é uma aplicação web desenvolvida com o framework **Laravel**. El
     npm install
     ```
 
-4. Copie o arquivo `.env.example` para `.env` e configure as variáveis de ambiente conforme necessário:
+4. Copie o arquivo `.env.example` para `.env` e configure as variáveis de ambiente:
     ```sh
     cp .env.example .env
     ```
@@ -64,11 +65,10 @@ Este projeto é uma aplicação web desenvolvida com o framework **Laravel**. El
 
 Acesse [http://localhost:8000](http://localhost:8000) no navegador.
 
-## Desenvolvedores
+## Desenvolvedor
 
-- **Gabriel Garcia**
-- **Levi Ferreira**
+- **Thiago de Almeida Souza Silva**
 
 ---
 
-Projeto desenvolvido para fins acadêmicos e de aprendizado com Laravel.
+Projeto acadêmico desenvolvido para fins de aprendizado em Laravel, com foco em soluções para o mercado pet.
